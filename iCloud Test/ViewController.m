@@ -181,9 +181,12 @@
         NSDictionary *fileAttributes = [fileManager attributesOfItemAtPath:obj.path error:nil];
         //NSLog(@"fileAttributes=%@", fileAttributes);
         
+        NSString *dateString = [[fileAttributes objectForKey:@"NSFileModificationDate"] description];
+        NSString *modifyDate = [[dateString componentsSeparatedByString:@"+"] objectAtIndex:0];
+        
         NSMutableDictionary *fileInfo = [NSMutableDictionary new];
         [fileInfo setObject:fileName forKey:@"fileName"];
-        [fileInfo setObject:[fileAttributes objectForKey:@"NSFileModificationDate"] forKey:@"modificationDate"];
+        [fileInfo setObject:modifyDate forKey:@"modificationDate"];
         //[fileInfo setObject:obj.path forKey:@"fileURL"];
         [result appendString:[fileInfo description]];
         [result appendString:@"\n\n"];
@@ -207,6 +210,7 @@
     //NSLog(@"localFileURL=%@",localFileURL);
     
     NSError *error = nil;
+    [[NSFileManager defaultManager] removeItemAtURL:localFileURL error:&error];
     [[NSFileManager defaultManager] copyItemAtURL:iCloudFileURL toURL:localFileURL error:&error];
     if(error != nil) {
         NSLog(@"copyToLacal Error: %@", error);
@@ -228,6 +232,7 @@
     //NSLog(@"localFileURL=%@",localFileURL);
     
     NSError *error = nil;
+    [[NSFileManager defaultManager] removeItemAtURL:iCloudFileURL error:&error];
     [[NSFileManager defaultManager] copyItemAtURL:localFileURL toURL:iCloudFileURL error:&error];
     if(error != nil) {
         NSLog(@"copyToiCloud Error: %@", error);
