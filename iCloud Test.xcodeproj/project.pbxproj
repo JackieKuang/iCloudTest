@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C04BC551FE3AD2B004222E5 /* SecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C04BC541FE3AD2B004222E5 /* SecViewController.m */; };
 		8CCD5B891FE257F8007EC2D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCD5B881FE257F8007EC2D9 /* AppDelegate.m */; };
 		8CCD5B8C1FE257F8007EC2D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCD5B8B1FE257F8007EC2D9 /* ViewController.m */; };
 		8CCD5B8F1FE257F8007EC2D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CCD5B8D1FE257F8007EC2D9 /* Main.storyboard */; };
 		8CCD5B911FE257F8007EC2D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CCD5B901FE257F8007EC2D9 /* Assets.xcassets */; };
 		8CCD5B941FE257F8007EC2D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CCD5B921FE257F8007EC2D9 /* LaunchScreen.storyboard */; };
 		8CCD5B971FE257F8007EC2D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCD5B961FE257F8007EC2D9 /* main.m */; };
+		D824D6512488E7FC6DC75277 /* libPods-iCloud Test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF18BE182F74D030EBEFCF26 /* libPods-iCloud Test.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1DB1EA54FE7EC5D9ED212682 /* Pods-iCloud Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCloud Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-iCloud Test/Pods-iCloud Test.release.xcconfig"; sourceTree = "<group>"; };
+		8C04BC531FE3AD2B004222E5 /* SecViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecViewController.h; sourceTree = "<group>"; };
+		8C04BC541FE3AD2B004222E5 /* SecViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecViewController.m; sourceTree = "<group>"; };
 		8CCD5B841FE257F8007EC2D9 /* iCloud Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iCloud Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CCD5B871FE257F8007EC2D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8CCD5B881FE257F8007EC2D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +31,9 @@
 		8CCD5B931FE257F8007EC2D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CCD5B951FE257F8007EC2D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CCD5B961FE257F8007EC2D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8CCD5B9D1FE2580A007EC2D9 /* iCloud Test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "iCloud Test.entitlements"; sourceTree = "<group>"; };
+		90662C1C49F5EE54BAF7E4CC /* Pods-iCloud Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCloud Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iCloud Test/Pods-iCloud Test.debug.xcconfig"; sourceTree = "<group>"; };
+		EF18BE182F74D030EBEFCF26 /* libPods-iCloud Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iCloud Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D824D6512488E7FC6DC75277 /* libPods-iCloud Test.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +53,8 @@
 			children = (
 				8CCD5B861FE257F8007EC2D9 /* iCloud Test */,
 				8CCD5B851FE257F8007EC2D9 /* Products */,
+				8CCD5B9E1FE2588C007EC2D9 /* Frameworks */,
+				CDA192F90C2362A0174491F4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +69,13 @@
 		8CCD5B861FE257F8007EC2D9 /* iCloud Test */ = {
 			isa = PBXGroup;
 			children = (
+				8CCD5B9D1FE2580A007EC2D9 /* iCloud Test.entitlements */,
 				8CCD5B871FE257F8007EC2D9 /* AppDelegate.h */,
 				8CCD5B881FE257F8007EC2D9 /* AppDelegate.m */,
 				8CCD5B8A1FE257F8007EC2D9 /* ViewController.h */,
 				8CCD5B8B1FE257F8007EC2D9 /* ViewController.m */,
+				8C04BC531FE3AD2B004222E5 /* SecViewController.h */,
+				8C04BC541FE3AD2B004222E5 /* SecViewController.m */,
 				8CCD5B8D1FE257F8007EC2D9 /* Main.storyboard */,
 				8CCD5B901FE257F8007EC2D9 /* Assets.xcassets */,
 				8CCD5B921FE257F8007EC2D9 /* LaunchScreen.storyboard */,
@@ -71,6 +85,23 @@
 			path = "iCloud Test";
 			sourceTree = "<group>";
 		};
+		8CCD5B9E1FE2588C007EC2D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF18BE182F74D030EBEFCF26 /* libPods-iCloud Test.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDA192F90C2362A0174491F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90662C1C49F5EE54BAF7E4CC /* Pods-iCloud Test.debug.xcconfig */,
+				1DB1EA54FE7EC5D9ED212682 /* Pods-iCloud Test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +109,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CCD5B9A1FE257F8007EC2D9 /* Build configuration list for PBXNativeTarget "iCloud Test" */;
 			buildPhases = (
+				343BEFCE55C10325A92B75E2 /* [CP] Check Pods Manifest.lock */,
 				8CCD5B801FE257F8007EC2D9 /* Sources */,
 				8CCD5B811FE257F8007EC2D9 /* Frameworks */,
 				8CCD5B821FE257F8007EC2D9 /* Resources */,
+				C84E2C039ADD5CEF9FC72129 /* [CP] Embed Pods Frameworks */,
+				FE71628FB1450296B15911B6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -103,6 +137,14 @@
 					8CCD5B831FE257F8007EC2D9 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -137,11 +179,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		343BEFCE55C10325A92B75E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iCloud Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C84E2C039ADD5CEF9FC72129 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iCloud Test/Pods-iCloud Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE71628FB1450296B15911B6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iCloud Test/Pods-iCloud Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8CCD5B801FE257F8007EC2D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C04BC551FE3AD2B004222E5 /* SecViewController.m in Sources */,
 				8CCD5B8C1FE257F8007EC2D9 /* ViewController.m in Sources */,
 				8CCD5B971FE257F8007EC2D9 /* main.m in Sources */,
 				8CCD5B891FE257F8007EC2D9 /* AppDelegate.m in Sources */,
@@ -276,29 +370,41 @@
 		};
 		8CCD5B9B1FE257F8007EC2D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90662C1C49F5EE54BAF7E4CC /* Pods-iCloud Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "iCloud Test/iCloud Test.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 587PYNRB3E;
 				INFOPLIST_FILE = "iCloud Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "tw.test.iCloud.iCloud-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.test.iCloud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		8CCD5B9C1FE257F8007EC2D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DB1EA54FE7EC5D9ED212682 /* Pods-iCloud Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "iCloud Test/iCloud Test.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 587PYNRB3E;
 				INFOPLIST_FILE = "iCloud Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "tw.test.iCloud.iCloud-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.test.iCloud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11DD11F5130F0A6207CA26721A923975 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		6576EB06253C67DE47E7E06B8119EF15 /* iCloudDocumentSync-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA507ECBD43841B8E37C57AB3E12B4E /* iCloudDocumentSync-dummy.m */; };
+		6722E173965E73AC2C999A1D83D428B8 /* iCloudDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C1F279E4F4FE0737000645EEA59CB9 /* iCloudDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		781CB81F1FB4E84F94BC28E4123082C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		889CE4538EEBA5CEA949577B81E8773D /* iCloud.h in Headers */ = {isa = PBXBuildFile; fileRef = 6464EAC61ABA44ADE73861BFCC7B3E5B /* iCloud.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A106BFAA31943BC21924DE8329C835D6 /* iCloudDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = BED8FC0660CA17EEBEC8CF7ECF5FA388 /* iCloudDocument.m */; };
+		B280D43B5E9C2BC556D25E73B7753AC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		C0203E6DD58A70CA073DF46465AEA700 /* iCloud-Prefix.pch in Sources */ = {isa = PBXBuildFile; fileRef = 18168868B5847682A51E57D2B92412B9 /* iCloud-Prefix.pch */; };
+		D6D3BC9BAB803314EDC42B3206537177 /* iCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 3221938BF6F57D6F2BCBD774C05899A0 /* iCloud.m */; };
+		E4B45167D1FFFA05DAF0936226E24617 /* Pods-iCloud Test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 532A3BF1DDA114F09D34E255A28AF54F /* Pods-iCloud Test-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EB1ABE8E0545848CFDDCC5CAACF7ACA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F22893DE3DF8BB3D4B08876F2BD089FB;
+			remoteInfo = iCloudDocumentSync;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18168868B5847682A51E57D2B92412B9 /* iCloud-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "iCloud-Prefix.pch"; path = "iCloud/iCloud-Prefix.pch"; sourceTree = "<group>"; };
+		1CCAA7E06D24CA3AB2777C36C2900535 /* iCloudDocumentSync.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iCloudDocumentSync.xcconfig; sourceTree = "<group>"; };
+		2703977B3E8154EEE3E731A29D8A0604 /* Pods-iCloud Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iCloud Test.release.xcconfig"; sourceTree = "<group>"; };
+		27C1F279E4F4FE0737000645EEA59CB9 /* iCloudDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iCloudDocument.h; path = iCloud/iCloudDocument.h; sourceTree = "<group>"; };
+		3221938BF6F57D6F2BCBD774C05899A0 /* iCloud.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = iCloud.m; path = iCloud/iCloud.m; sourceTree = "<group>"; };
+		395B28E9D9AAC185D66A39A86280402C /* Pods-iCloud Test-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iCloud Test-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3DDECAFF9DA364A9F66FA1654A425206 /* libiCloudDocumentSync.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libiCloudDocumentSync.a; path = libiCloudDocumentSync.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C36D720065CDFDB176C4BAEA7587D02 /* Pods-iCloud Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iCloud Test.debug.xcconfig"; sourceTree = "<group>"; };
+		532A3BF1DDA114F09D34E255A28AF54F /* Pods-iCloud Test-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iCloud Test-dummy.m"; sourceTree = "<group>"; };
+		5B18599C977A15529B9C82C03E42A035 /* Pods-iCloud Test-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iCloud Test-resources.sh"; sourceTree = "<group>"; };
+		6464EAC61ABA44ADE73861BFCC7B3E5B /* iCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iCloud.h; path = iCloud/iCloud.h; sourceTree = "<group>"; };
+		699A1FB46BCB191029B1D3C8F6DCD7FB /* libPods-iCloud Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-iCloud Test.a"; path = "libPods-iCloud Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EAA97A3735CD42804F5A595B01018E8 /* iCloudDocumentSync-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iCloudDocumentSync-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94FBEE9C6C0CB7DD8092F1F071D3F842 /* Pods-iCloud Test-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iCloud Test-frameworks.sh"; sourceTree = "<group>"; };
+		A4CD5E040326B1F866A6F0652805F323 /* Pods-iCloud Test-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iCloud Test-acknowledgements.plist"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BED8FC0660CA17EEBEC8CF7ECF5FA388 /* iCloudDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = iCloudDocument.m; path = iCloud/iCloudDocument.m; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DAA507ECBD43841B8E37C57AB3E12B4E /* iCloudDocumentSync-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iCloudDocumentSync-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17C14CB084511D389D1E07B4478047A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11DD11F5130F0A6207CA26721A923975 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B418BACF90093A79E0C042E4C1F5E571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				781CB81F1FB4E84F94BC28E4123082C5 /* Foundation.framework in Frameworks */,
+				B280D43B5E9C2BC556D25E73B7753AC1 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B76923132A0A5DA4C9657609A6E370B /* Pods-iCloud Test */ = {
+			isa = PBXGroup;
+			children = (
+				395B28E9D9AAC185D66A39A86280402C /* Pods-iCloud Test-acknowledgements.markdown */,
+				A4CD5E040326B1F866A6F0652805F323 /* Pods-iCloud Test-acknowledgements.plist */,
+				532A3BF1DDA114F09D34E255A28AF54F /* Pods-iCloud Test-dummy.m */,
+				94FBEE9C6C0CB7DD8092F1F071D3F842 /* Pods-iCloud Test-frameworks.sh */,
+				5B18599C977A15529B9C82C03E42A035 /* Pods-iCloud Test-resources.sh */,
+				4C36D720065CDFDB176C4BAEA7587D02 /* Pods-iCloud Test.debug.xcconfig */,
+				2703977B3E8154EEE3E731A29D8A0604 /* Pods-iCloud Test.release.xcconfig */,
+			);
+			name = "Pods-iCloud Test";
+			path = "Target Support Files/Pods-iCloud Test";
+			sourceTree = "<group>";
+		};
+		2F99013E1147CCE37DA315A3DBAF03E8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CCAA7E06D24CA3AB2777C36C2900535 /* iCloudDocumentSync.xcconfig */,
+				DAA507ECBD43841B8E37C57AB3E12B4E /* iCloudDocumentSync-dummy.m */,
+				8EAA97A3735CD42804F5A595B01018E8 /* iCloudDocumentSync-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/iCloudDocumentSync";
+			sourceTree = "<group>";
+		};
+		3D82C34353244A8A08850086C9FB50CE /* iCloudDocumentSync */ = {
+			isa = PBXGroup;
+			children = (
+				6464EAC61ABA44ADE73861BFCC7B3E5B /* iCloud.h */,
+				3221938BF6F57D6F2BCBD774C05899A0 /* iCloud.m */,
+				18168868B5847682A51E57D2B92412B9 /* iCloud-Prefix.pch */,
+				27C1F279E4F4FE0737000645EEA59CB9 /* iCloudDocument.h */,
+				BED8FC0660CA17EEBEC8CF7ECF5FA388 /* iCloudDocument.m */,
+				2F99013E1147CCE37DA315A3DBAF03E8 /* Support Files */,
+			);
+			name = iCloudDocumentSync;
+			path = iCloudDocumentSync;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		46A00AD273F4A4415961ED721459DD37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DDECAFF9DA364A9F66FA1654A425206 /* libiCloudDocumentSync.a */,
+				699A1FB46BCB191029B1D3C8F6DCD7FB /* libPods-iCloud Test.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53E0AAB1BE6E1C7B57073C5E8E3CFC02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D82C34353244A8A08850086C9FB50CE /* iCloudDocumentSync */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		680BE47308140129CD55C8C0F2F84646 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B76923132A0A5DA4C9657609A6E370B /* Pods-iCloud Test */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				53E0AAB1BE6E1C7B57073C5E8E3CFC02 /* Pods */,
+				46A00AD273F4A4415961ED721459DD37 /* Products */,
+				680BE47308140129CD55C8C0F2F84646 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		256F549AC5810B8DEE7596C029A56770 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889CE4538EEBA5CEA949577B81E8773D /* iCloud.h in Headers */,
+				6722E173965E73AC2C999A1D83D428B8 /* iCloudDocument.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		75B6B4CF29A0C5AD5786235560B961AB /* Pods-iCloud Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 955FF640D92793FF360B4D62F7C0869D /* Build configuration list for PBXNativeTarget "Pods-iCloud Test" */;
+			buildPhases = (
+				C420F3A5DDE1DD57F8CF2EFB4BCDD81E /* Sources */,
+				17C14CB084511D389D1E07B4478047A1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E945D48FD8A7963BDBB083AE51AD4DC0 /* PBXTargetDependency */,
+			);
+			name = "Pods-iCloud Test";
+			productName = "Pods-iCloud Test";
+			productReference = 699A1FB46BCB191029B1D3C8F6DCD7FB /* libPods-iCloud Test.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F22893DE3DF8BB3D4B08876F2BD089FB /* iCloudDocumentSync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69A87F2B20B1DF99EEB99D30B7B95FB /* Build configuration list for PBXNativeTarget "iCloudDocumentSync" */;
+			buildPhases = (
+				2D1AA77A2047679A983C391034A173AE /* Sources */,
+				B418BACF90093A79E0C042E4C1F5E571 /* Frameworks */,
+				256F549AC5810B8DEE7596C029A56770 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCloudDocumentSync;
+			productName = iCloudDocumentSync;
+			productReference = 3DDECAFF9DA364A9F66FA1654A425206 /* libiCloudDocumentSync.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 46A00AD273F4A4415961ED721459DD37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F22893DE3DF8BB3D4B08876F2BD089FB /* iCloudDocumentSync */,
+				75B6B4CF29A0C5AD5786235560B961AB /* Pods-iCloud Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D1AA77A2047679A983C391034A173AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0203E6DD58A70CA073DF46465AEA700 /* iCloud-Prefix.pch in Sources */,
+				D6D3BC9BAB803314EDC42B3206537177 /* iCloud.m in Sources */,
+				A106BFAA31943BC21924DE8329C835D6 /* iCloudDocument.m in Sources */,
+				6576EB06253C67DE47E7E06B8119EF15 /* iCloudDocumentSync-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C420F3A5DDE1DD57F8CF2EFB4BCDD81E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B45167D1FFFA05DAF0936226E24617 /* Pods-iCloud Test-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E945D48FD8A7963BDBB083AE51AD4DC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iCloudDocumentSync;
+			target = F22893DE3DF8BB3D4B08876F2BD089FB /* iCloudDocumentSync */;
+			targetProxy = 6EB1ABE8E0545848CFDDCC5CAACF7ACA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0315B139EB4985C66505A251B1A8E9E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CCAA7E06D24CA3AB2777C36C2900535 /* iCloudDocumentSync.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/iCloudDocumentSync/iCloudDocumentSync-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D6047F28691CC803599B5437CF59F15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CCAA7E06D24CA3AB2777C36C2900535 /* iCloudDocumentSync.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/iCloudDocumentSync/iCloudDocumentSync-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39C5BC78A31CDE101068C530CAC7FA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		597370021DB36DCC721655945B3563AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2703977B3E8154EEE3E731A29D8A0604 /* Pods-iCloud Test.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E4BDDC41FB08BA701AF69EEA65D35D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C36D720065CDFDB176C4BAEA7587D02 /* Pods-iCloud Test.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C5BC78A31CDE101068C530CAC7FA0F /* Debug */,
+				89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		955FF640D92793FF360B4D62F7C0869D /* Build configuration list for PBXNativeTarget "Pods-iCloud Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E4BDDC41FB08BA701AF69EEA65D35D7 /* Debug */,
+				597370021DB36DCC721655945B3563AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69A87F2B20B1DF99EEB99D30B7B95FB /* Build configuration list for PBXNativeTarget "iCloudDocumentSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0315B139EB4985C66505A251B1A8E9E2 /* Debug */,
+				0D6047F28691CC803599B5437CF59F15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
